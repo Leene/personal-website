@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export default function Navigation(){ 
 
 return <Nav>
- <Button> About </Button>
+ <Button> TAbout </Button>
  <Button> Projects </Button>
      </Nav>  
 
