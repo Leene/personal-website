@@ -3,7 +3,7 @@ import styled from 'styled-components'
  
 export default function Skills(){
 
-    return <table>
+    return <Table>
       <thead>
         <tr>
           <th>Niveau</th>
@@ -24,7 +24,11 @@ export default function Skills(){
         <td>PHP, SQL, Assembler, C, Ruby, Website Testing</td>
       </tr>
       </tbody>
-    </table>
+    </Table>
 
     
 }
+
+const Table = styled.table`
+color:whitesmoke;
+` 
