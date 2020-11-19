@@ -5,8 +5,10 @@ import styled from 'styled-components'
 export default function Navigation(){ 
 
 return <Nav>
- <Button> About </Button>
- <Button> Projects </Button>
+ <Button> Computerkenntnisse </Button>
+ <Button> Projekte </Button>
+ <Button> Bildung </Button>
+ <Button> Erfahrung </Button>
      </Nav>  
 
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import logo from './logo.svg';
 import './App.css';
 import  Skills from'./components/Skills';
 import  Navigation from'./components/Navigation';
 import  Header from'./components/Header';
-
+import Education from './components/Education'
+import Expirience from './components/Expirience'
+import Projects from './components/Projects'
 
 
 
@@ -14,19 +15,12 @@ function App() {
   return (
     <APP className="App">
       <Header/>
-    
-      <H1>Portfolio Website</H1>
-       
-       
-       <Content>
-      <h2>Hallo, ich bin Marleen Stüber</h2>
-      <p>Junior Web Entwicklerin</p> 
-     
-
-     <Skills/>
      <Navigation/>
-
-     </Content>
+     <Skills/>
+     <Projects/>
+     <Education/>
+     <Expirience/>
+     
      <section> footer</section>
     </APP>
   );
@@ -34,18 +28,10 @@ function App() {
 
 export default App;
 
-const H1 = styled.h1`
-color:whitesmoke;
-`
-const Content= styled.section`
-border:1px solid hotpink;
-flex-direction: column;
-align-content:space-between;
-`
-
 const APP = styled.div`
 border:1px solid green;
 display: flex;
+flex-direction: column;
 height:300px;
 
 `
