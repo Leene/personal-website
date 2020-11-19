@@ -6,7 +6,7 @@ import Karre from '../img/icon_karre_white.png'
  
 export default function Expirience(){
     
-    return <Section>
+    return <Section  id="expirience">
 <Img src={Karre} />
 <h2>Praxiserfahrung</h2>
 
@@ -32,9 +32,10 @@ const Section = styled.section`
 background-color:#59636C;
 padding-bottom:150px;
 margin-bottom: 0px;
-margin-top:-1px;
+margin-top:-5px;
 `
 const Img = styled.img`
 height:150px;
 opacity:0.2;
+margin-top:-150px;
 ` 

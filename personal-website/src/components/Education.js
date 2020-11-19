@@ -7,10 +7,10 @@ import Talar from '../img/icon_talar_white.png'
 export default function Education(){
 
 return <>
-<Section> {/* Aus-/Fortbildungen */}
+<Section  id="education"> {/* Aus-/Fortbildungen */}
 <Img src={Talar} />
 
-<h2>Relevante Stationen meiner Aus- und Fortbildungen</h2>
+<h2>Aus- und Fortbildungen (Auszug)</h2>
 <h2>Web Developer Bootcamp</h2>
 <p>Januar - März 2020</p>
 <li>3-monatige Vollzeitfortbildung bei neuefische GmbH</li>
@@ -60,4 +60,5 @@ const Section = styled.section`
 const Img = styled.img`
 height:150px;
 opacity:0.2;
+margin-top:-150px;
 ` 

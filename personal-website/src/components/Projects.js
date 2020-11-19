@@ -8,13 +8,13 @@ import Klammer from '../img/icon_klammer_white.png'
 
 export default function Projects() {
     return (
-        <Section>
+        <Section id="projects">
           
-<Img src={Klammer} />
+<Icon src={Klammer} />
             <h2>Projekte</h2>
             <h3>Emmet Typing Game</h3>
             <p> Abschlussproojekt (Web Developer Bootcamp Jan - März 2020)</p>
-            <img />
+            
             <h3>Screenshots</h3>
             <Screens>
                 <Figure>
@@ -43,7 +43,7 @@ export default function Projects() {
 }
 const Section = styled.section`
 background-color:#59636C;
-margin-top:-1px;
+margin-top:-5px;
 
 `
 
@@ -71,7 +71,8 @@ const IFrame = styled.iframe`
     margin-bottom: 150px;
     
     `
-    const Img = styled.img`
+    const Icon = styled.img`
     height:150px;
     opacity:0.2;
+    margin-top:-150px;
     ` 
