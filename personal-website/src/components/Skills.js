@@ -1,10 +1,15 @@
 import React from 'react';
 import styled from 'styled-components'
- 
+import Maus from '../img/icon_maus_white.png'
+
 export default function Skills(){
 
     return <section> {/* Computerkennnisse */}
-    <h2>Computerkenntnisse</h2>
+   <DIV>
+    <Img src={Maus} />
+    <H2>Computerkenntnisse</H2>
+</DIV>
+
  <h3>Fortgeschritten</h3>
  <p>Javascript, React.js, JSX, HTML/CSS, Illustrator, 
  InDesign, Photoshop, Java, Funktionale Programmierung, </p>
@@ -18,6 +23,19 @@ export default function Skills(){
     
 }
 
-const Table = styled.table`
-color:whitesmoke;
+
+const DIV = styled.div`
+displey: flex;
+flex-direction: row;
+`
+const H2 = styled.h2`
+display:inline;
+
+
+`
+
+
+const Img = styled.img`
+height:150px;
+opacity:0.2;
 ` 

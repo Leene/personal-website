@@ -2,11 +2,12 @@
 
 import React from 'react';
 import styled from 'styled-components'
+import Karre from '../img/icon_karre_white.png'
  
 export default function Expirience(){
-
-return <section> {/* Praxiserfahrung */}
-
+    
+    return <Section>
+<Img src={Karre} />
 <h2>Praxiserfahrung</h2>
 
 <h3>Junior QA (Werkstudent) </h3>
@@ -24,5 +25,16 @@ return <section> {/* Praxiserfahrung */}
 <p>März 2007 - Juni 2009</p>
 
 
-</section> 
+</Section> 
 }
+
+const Section = styled.section`
+background-color:#59636C;
+padding-bottom:150px;
+margin-bottom: 0px;
+margin-top:-1px;
+`
+const Img = styled.img`
+height:150px;
+opacity:0.2;
+` 

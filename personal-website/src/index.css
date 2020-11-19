@@ -7,9 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* background-image: linear-gradient(15deg, #c48e8c 0%,#8ab59e 100%); */
-  background-image: linear-gradient(15deg, #ddb889 0%,#8ab59e 100%);
-  /* background-image: linear-gradient(15deg, #8b5e7a 0%,#e9ccc1 100%); */
+  /*background-image: linear-gradient(0deg,#F2F2F2  0%, #EAEAEA 50% ,#F2F2F2 100%);
+   background-image: linear-gradient(15deg, #F2F2F2 0%,#e9ccc1 100%); */
   height:100vh;
+ background-color:#46515b; 
+  
 
 }
 

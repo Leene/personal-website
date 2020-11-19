@@ -9,6 +9,7 @@ return <Nav>
  <Button> Projekte </Button>
  <Button> Bildung </Button>
  <Button> Erfahrung </Button>
+ <Button> Kontakt </Button>
      </Nav>  
 
 }
@@ -16,9 +17,9 @@ return <Nav>
 
 const Nav = styled.nav`
 display:flex;
-border:1px solid hotpink;
+
 `
 const Button = styled.button`
 
-border:1px solid darkgreen;
+
 `

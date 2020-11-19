@@ -2,12 +2,13 @@
 
 import React from 'react';
 import styled from 'styled-components'
+import Talar from '../img/icon_talar_white.png'
  
 export default function Education(){
 
 return <>
-
-<section> {/* Aus-/Fortbildungen */}
+<Section> {/* Aus-/Fortbildungen */}
+<Img src={Talar} />
 
 <h2>Relevante Stationen meiner Aus- und Fortbildungen</h2>
 <h2>Web Developer Bootcamp</h2>
@@ -47,12 +48,16 @@ return <>
 <li>Kenntnisse in gängigen Grafikprogrammen, Design-Grundlagen und Typographie</li>
 <li>10/2008 IHK-Abschluss</li>
 
-</section> 
+</Section> 
 
 
 </>
 }
 
-const Table = styled.table`
-color:whitesmoke;
+const Section = styled.section`
+
+` 
+const Img = styled.img`
+height:150px;
+opacity:0.2;
 ` 

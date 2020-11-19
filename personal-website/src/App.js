@@ -9,19 +9,28 @@ import Education from './components/Education'
 import Expirience from './components/Expirience'
 import Projects from './components/Projects'
 
+import { COLORS } from './constants'
 
 
 function App() {
   return (
     <APP className="App">
       <Header/>
-     <Navigation/>
-     <Skills/>
-     <Projects/>
-     <Education/>
-     <Expirience/>
      
-     <section> footer</section>
+     <Skills/>
+     <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="0.1" d="M0,224L1440,32L1440,320L0,320Z"></path></Svg>
+     <Projects/>
+     <Svg2 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#46515b" fill-opacity="0.5" d="M0,96L1440,224L1440,320L0,320Z"></path></Svg2>
+     <Education/>
+     <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="0.1" d="M0,224L1440,32L1440,320L0,320Z"></path></Svg>
+     <Expirience/>
+     <Footer>
+     <Svg2 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#337065" fill-opacity="1" d="M0,96L1440,224L1440,320L0,320Z"></path></Svg2>
+     
+      <p>Kontakt</p>
+      © 2020 Marleen Stüber Privacy Policy
+      
+      </Footer>
     </APP>
   );
 }
@@ -29,9 +38,22 @@ function App() {
 export default App;
 
 const APP = styled.div`
-border:1px solid green;
 display: flex;
 flex-direction: column;
-height:300px;
+height:100%;
+color:oldlace;
+
+`
+const Svg = styled.svg` /* blau */
+width: 100vw;
+margin-top: -20px;
+`
+const Svg2 = styled.svg` /* blau */
+width: 100vw;
+margin-top: -250px;
+`
+const Footer = styled.footer`
+
+background-color: ${COLORS.footer};
 
 `

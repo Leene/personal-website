@@ -1,37 +1,77 @@
-
-
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components'
 import { COLORS } from '../constants'
-
 import Screen1 from '../img/startArea.png'
 import Screen2 from '../img/ingame_view.png'
 import Screen3 from '../img/GameOverDialog.png'
- 
-export default function Projects(){
+import Klammer from '../img/icon_klammer_white.png'
 
-return <section> {/* Projekte */}
-
-<h2>Projekte</h2>
-
-<h3>Emmet Typing Game</h3>
-<p> Abschlussproojekt (Web Developer Bootcamp Jan - März 2020)</p>
-<img />
-<div>
-    
-    <IMG src={Screen1} />
-    <IMG src={Screen2} />
-    <IMG src={Screen3} />
-
-
-</div>
-</section> 
+export default function Projects() {
+    return (
+        <Section>
+          
+<Img src={Klammer} />
+            <h2>Projekte</h2>
+            <h3>Emmet Typing Game</h3>
+            <p> Abschlussproojekt (Web Developer Bootcamp Jan - März 2020)</p>
+            <img />
+            <h3>Screenshots</h3>
+            <Screens>
+                <Figure>
+                    <figcaption>Startbereich</figcaption>
+                    <IMG src={Screen1} />
+                </Figure>
+                <Figure>
+                    <figcaption>Im Spiel</figcaption>
+                    <IMG src={Screen2} />
+                </Figure>
+                <Figure>
+                    <figcaption>Ende des Spiels</figcaption>
+                    <IMG src={Screen3} />
+                </Figure>
+            </Screens>
+            <div>
+                <IFrame
+                    src="https://codesandbox.io/embed/emmet-typing-game-76fn3?fontsize=14&hidenavigation=1&theme=dark&view=split&editorsize=55"
+                    title="Emmet Typing Game"
+                    allow=" accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+                ></IFrame>
+            </div>
+        </Section>
+    )
 }
-
-const IMG = styled.img`
-height:50vh;
-margin:5px;
-box-shadow: 1px 1px 8px 3px ${COLORS.shadow_RGBA};
-
+const Section = styled.section`
+background-color:#59636C;
+margin-top:-1px;
 
 `
+
+const Figure = styled.figure`
+    margin: 0;
+`
+
+const IMG = styled.img`
+    box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
+    height: 500px;
+    margin: 20px 5px 0 5px;
+`
+const Screens = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+const IFrame = styled.iframe`
+    overflow: hidden;
+    border: 0;
+    box-shadow: 1px 1px 8px 3px ${COLORS.shadow_dark_RGBA};
+    width: 860px;
+    height: 667px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
+    `
+    const Img = styled.img`
+    height:150px;
+    opacity:0.2;
+    ` 
