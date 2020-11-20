@@ -13,9 +13,8 @@ export default function Projects() {
 <Icon src={Klammer} />
             <h2>Projekte</h2>
             <h3>Emmet Typing Game</h3>
-            <p> Abschlussproojekt (Web Developer Bootcamp Jan - März 2020)</p>
+            <p> Abschlussprojekt (Web Developer Bootcamp Januar - März 2020)</p>
             
-            <h3>Screenshots</h3>
             <Screens>
                 <Figure>
                     <figcaption>Startbereich</figcaption>

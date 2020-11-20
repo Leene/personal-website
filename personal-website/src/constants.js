@@ -4,6 +4,7 @@ export const COLORS = {
     primary: '0, 0, 0',
     secondary: '147, 186, 163',
 
+    
     shadow: '58, 32, 10',
     shadow_dark_RGBA: 'rgba(0, 0, 0, 0.3)',
     shadow_RGBA: 'rgba(58, 32, 10, 0.9)',

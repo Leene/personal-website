@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Karre from '../img/icon_karre_white.png'
  
-export default function Expirience(){
+export default function Experience(){
     
     return <Section  id="expirience">
 <Img src={Karre} />
@@ -15,8 +15,8 @@ export default function Expirience(){
 <p>Januar 2018 - Dezember 2018</p>
 <li>Aufgabe: Qualitätssicherung von Webseiten</li>
 
-<h3> Projektassistenz </h3>
-<p> enz bei sitegeist neos solutions GmbH</p>
+<h3>Projektassistenz</h3>
+<p> bei sitegeist neos solutions GmbH</p>
 <p>März  2015 - Novenmber 2017</p>
 <li>Aufgaben: Contentpflege, Bildbearbeitung, Präsentationsvorbereitung</li>
 

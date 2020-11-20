@@ -27,7 +27,7 @@ export default function Skills() {
                     <TD>
                         <p>
                             Objektorientierte Programmierung (Java), Unity 3D,
-                            After Effects, MySQL, Jira, Redmine, VS Code,
+                            MySQL, Jira, Redmine, VS Code,
                             Eclipse
                         </p>
                     </TD>
