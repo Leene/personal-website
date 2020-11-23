@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '/styled-components'
 import Maus from '../img/icon_maus_white.png'
 import { COLORS } from '../constants'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '/styled-components'
 import { COLORS } from '../constants'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 

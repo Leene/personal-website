@@ -1,6 +1,6 @@
 import { COLORS } from '../constants'
 import React from 'react'
-import styled from 'styled-components'
+import styled from '/styled-components'
 import meinAntlitz from '../img/marleen_stueber_quadrat.png'
 import Navigation from './Navigation'
 export default function Header() {

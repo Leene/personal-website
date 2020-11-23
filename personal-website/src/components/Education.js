@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '/styled-components'
 import Talar from '../img/icon_talar_white.png'
 import { COLORS } from '../constants'
 

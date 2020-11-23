@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled from '/styled-components'
 import { COLORS } from '../constants'
 import Screen1 from '../img/startArea.png'
 import Screen2 from '../img/ingame_view.png'

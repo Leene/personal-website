@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import styled from 'styled-components'
+import styled from '/styled-components'
 import Karre from '../img/icon_karre_white.png'
  
 export default function Experience(){
